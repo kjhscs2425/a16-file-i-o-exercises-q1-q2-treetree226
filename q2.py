@@ -15,10 +15,19 @@ image = """
 ####
 #### YOUR CODE HERE 
 ####
+with open("hello.html", "w") as f:
+    f.write("webpage")
+
+print(webpage)
 
 
 # Write the string `image` to a file called "star.svg"
 # Check that you can open the files in your file explorer
+
+with open("star.svg", "w") as f:
+    f.write("image")
+
+print(image)
 
 ####
 #### YOUR CODE HERE 
